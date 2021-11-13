@@ -1,36 +1,35 @@
-import { populations } from "../app"
+// import { populations } from "../app"
 
-export class Customer{
-    constructor(id,customerNumber){
-        this.id = id
-        this.customerNumber = customerNumber
-    }
-}
+// export class Customer{
+//     constructor(id,customerNumber){
+//         this.id = id
+//         this.customerNumber = customerNumber
+//     }
+// }
 
-let customer = new Customer(1,12345)
+// let customer = new Customer(1,12345)
 
-customer.name = "Kubilay Cem"
+// customer.name = "Kubilay Cem"
 
-console.log(customer.id)
+// console.log(customer.id)
 
-Customer.bisey ="biþeyler"
+// Customer.bisey ="biþeyler"
 
-console.log(customer.bisey)
+// console.log(customer.bisey)
 
 
-class IndividualCustomer extends Customer {
+// class IndividualCustomer extends Customer {
 
-    constructor(fistname, id, customerNumber){
-        super(id,customerNumber)
-        this.fistname = fistname
-    }
-}
+//     constructor(fistname, id, customerNumber){
+//         super(id,customerNumber)
+//         this.fistname = fistname
+//     }
+// }
 
-class CorporateCustomer extends Customer{
-    constructor(companyName, id, customerNumber){
-        super(id,customerNumber)
-        this.companyName = companyName
-    }
-}
+// class CorporateCustomer extends Customer{
+//     constructor(companyName, id, customerNumber){
+//         super(id,customerNumber)
+//         this.companyName = companyName
+//     }
+// }
 
-console.log(populations.)

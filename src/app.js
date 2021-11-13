@@ -42,27 +42,27 @@ import { Customer } from "./oop"
 // console.log(typeof showProducts)
 // showProducts(5,"bir","iki","üç")
 //SPREAD
-let points = [5,6,77,8899,6]
+// let points = [5,6,77,8899,6]
 
-console.log(Math.max(...points))
-console.log(...points)
+// console.log(Math.max(...points))
+// console.log(...points)
 
-console.log(..."ABC","D",..."EFG","H")
+// console.log(..."ABC","D",..."EFG","H")
 
-//Destructuring
-let populations = [10000,20000,30000]
+// //Destructuring
+// let populations = [10000,20000,30000]
 
-let [small,medium,high] = populations
+// let [small,medium,high] = populations
 
-// console.log(small)
-// console.log(medium)
-// console.log(high)
+// // console.log(small)
+// // console.log(medium)
+// // console.log(high)
 
-let category = {id: 1, name: "Ýçecek"}
+// let category = {id: 1, name: "Ýçecek"}
 
-let {id,name} = category
+// let {id,name} = category
 
-console.log(name)
-console.log(id)
+// console.log(name)
+// console.log(id)
 
 //
